@@ -133,8 +133,8 @@ body{
     height: 2.5rem;
 }
 .wedget{
-    margin: 50px;
-    padding: 50px;
+    margin: 0px;
+    padding: 0px;
 }
 .version {
     font-family: 'Segoe UI';
@@ -142,4 +142,11 @@ body{
     color: #0a58ca;
     padding-top: 25px;
     padding-bottom: 25px;
+}
+.con5 {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.dltx{
+    text-align: center;
 }
