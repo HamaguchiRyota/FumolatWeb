@@ -5,8 +5,10 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+html {
+    overflow-y: scroll;
+}
 body{
-  overflow: hidden;
   background: #f2f2f2;
 }
 .wrapper{
@@ -99,16 +101,45 @@ body{
   background: #efefef;
 }
 .Mti {
-    color: white;
     padding: 50px;
     padding-top: 250px;
+    padding-bottom: 300px;
+    font-family: 'Segoe UI';
+    mix-blend-mode: difference;
+    color: white;
 }
 .Mti h1{
     font-size: 80px;
 }
-.SegoeUI {
-    font-family: 'Segoe UI';
+.toptitle {
+
 }
 .social{
     padding: 10px;
+}
+.heightext-oev { /* ------スペース(限界)の項目------ */
+    height: 8.3rem;
+}
+
+.heightext { /* ------スペース(大)の項目------ */
+    height: 2.5rem;
+}
+
+.heightext-thr { /* ------スペース(中)の項目------ */
+    height: 1rem;
+}
+
+.heightext-sec { /* ------スペース(小)の項目------ */
+    height: 2.5rem;
+}
+.wedget{
+    margin: 50px;
+    padding: 50px;
+}
+.version {
+    font-family: 'Segoe UI';
+    mix-blend-mode: exclusion;
+    color: #0a58ca;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
